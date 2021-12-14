@@ -30,7 +30,6 @@ class Player:
                 "in each digit of the security code. As you punch in the last digit,\n"
                 "the screen changes and says, 'Access Granted. Airlock controls are\n"
                 "unlocked.' You look around; but you do not see an airlock.\n"
-                "Perhaps it is somewhere else in the ship?\n")
                 print(message)
                 self.computer_terminal = True
             elif self.computer_terminal == False and self.security_codes == False:
